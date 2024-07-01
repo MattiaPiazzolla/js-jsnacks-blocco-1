@@ -34,7 +34,7 @@ SCOMPOSIZIONE IN SOTTOPROBLEMI
 
 <!-- SNACK 2 -->
 >creo un'array vuoto
->con un ciclo let, chiedo all'utente di inserire un numero 
+>con un ciclo let, chiedo all'utente di inserire un numero (per 6 volte)
     >> con if verifico se il numero è pari o dispari 
         >>>se il numero è dispari, lo inserisco nell'array tramite .push
 
