@@ -19,3 +19,30 @@ jsnack2 (cartella)
 - index.html
 - script.js`
 e così via
+
+SCOMPOSIZIONE IN SOTTOPROBLEMI
+<!-- SNACK 1 -->
+>Preparo un'array 
+    >Nell'array definisco n nomi degli invitati alla festa
+>Recupero il pulsante (per verificare se il nome è presente nell'array) dal DOM
+    >>Associo il pulsante recuperato nel DOM ad una funzione con un eventlistener
+        >>>Dentro la funzione recupero il valore inserito nel campo input 
+        >>>Definisco una variabile di controllo con un booleano 
+        >>>Definisco un ciclo for per confrontare se uno degli elementi dell'array al valore inserito nell'input 
+        >>>Definisco una condizione if per verificare se il valore che sto ciclando dell'array corrisponde al valore inserito nell'input
+        >>>Preparo le condizioni per i diversi messaggi di output
+
+<!-- SNACK 2 -->
+>creo un'array vuoto
+>con un ciclo let, chiedo all'utente di inserire un numero 
+    >> con if verifico se il numero è pari o dispari 
+        >>>se il numero è dispari, lo inserisco nell'array tramite .push
+
+<!-- SNACK 3 -->
+>Recupero il pulsante dal DOM
+    >>Associo il pulsante recuperato nel DOM ad una funzione con un eventlistener
+>Recuper il contenuto di imput 
+    >>verifico che il contenuto sia di 4 cifre 
+    >>scompongo la stringa in 4 con split
+    >>converto le stringe in numeri con parseint
+    >>calcolo la somma di tutte le cifre 
