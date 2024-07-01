@@ -8,4 +8,8 @@ checkNameBtn.addEventListener('click', function(){
     let nameInput = document.getElementById('nameInput').value.toLocaleLowerCase();
     // VARIABILE DI CONTROLLO O FLAG 
     let invited = false;
+    // CICLO L'ARRAI PER CONFRONTARE I SUOI ELEMENTI CON L'INPUT
+    for (let i = 0; i < guestList.length; i++){
+        
+    }
 })
