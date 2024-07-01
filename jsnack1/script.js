@@ -6,5 +6,6 @@ const checkNameBtn = document.getElementById('checkName');
 checkNameBtn.addEventListener('click', function(){
     // RECUPER IL VALORE DEL CAMPO IMPUT
     let nameInput = document.getElementById('nameInput').value.toLocaleLowerCase();
-    console.log(nameInput)
+    // VARIABILE DI CONTROLLO O FLAG 
+    let invited = false;
 })
