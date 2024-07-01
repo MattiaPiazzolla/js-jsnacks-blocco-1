@@ -4,5 +4,7 @@ let guestList = ['fabrizio mastrobattista', 'luigi micco', 'alessio crea', 'Jay 
 const checkNameBtn = document.getElementById('checkName');
 // DETERMINO LE ISTRUZIONI PER UN EVENTO CLICK DEL PULSANTE
 checkNameBtn.addEventListener('click', function(){
-    
+    // RECUPER IL VALORE DEL CAMPO IMPUT
+    let nameInput = document.getElementById('nameInput').value.toLocaleLowerCase();
+    console.log(nameInput)
 })
