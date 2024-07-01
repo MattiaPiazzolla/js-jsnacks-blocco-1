@@ -11,17 +11,23 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-12">
-                <h2 class="text-center mb-5">Il Grande Gatsby Party</h2>
+                <h1 class="text-center mb-5">Il Grande Gatsby Party</h1>
                 <div class="input-container">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <input type="text" id="nameInput" class="text-center w-100 rounded-1 border-1 p-2" placeholder="Inserisci il tuo Nome">
                         </div>
                         <div class="col-12 col-lg-6">
-                            <button type="button" class="btn btn-warning w-100 p-2" id="checkName">Controlla se sei stato invitato</button>
+                            <button type="button" class="btn customBtn w-100 p-2" id="checkName">Controlla se sei stato invitato</button>
+                        </div>
+                        <div class="col-12">
+                            <div id="notInvited"></div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <img src="./img/great-gatsby-party-invitation.png" id="inviteTicket" class="d-none" alt="">
             </div>
         </div>
     </div>

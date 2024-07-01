@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000;
+}
+
 .customBtn{
-    background-color: aliceblue;
+    background-color: #DCBB6A;
+    transition: .5s;
+}
+
+.customBtn:hover{
+    background-color: #efb92e;
+}
+
+h1{
+    color: #DCBB6A;
 }
